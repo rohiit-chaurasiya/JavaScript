@@ -1,0 +1,3 @@
+getName();
+// console.log(x);
+

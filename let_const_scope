@@ -1,0 +1,28 @@
+// {
+//     //this is block-compound statement
+//     var a=10;
+//     console.log(a);
+// }
+
+// if(true)
+// {
+//     //this is block-compound statement -block that is wrapping up multiple statement
+//     var a=10;
+//     console.log(a);
+// }
+
+// let and const are block scope-they are stored in a seperate memory space which is reserv for this block 
+
+{
+    var a=10;
+    let b=20;
+    const c=30;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+
+console.log(a);
+console.log(b); //throw error because b is not in globle scope 
+console.log(c);
+
