@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>eventListeners</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <script>
+            //let a=34
+            let a='This is me';
+            console.log(a);
+            // Data Types
+                // Number
+                // Object
+                // Boolean
+                // String
+                // undefined
+                // null
+
+                function Hellow()
+                {
+                    console.log("Hello Rohit");
+                }
+
+                let obj={
+                    r:34,
+                    m:34,
+                    func:function myFun(number)
+                    {
+                        console.log("The Number is"+number);
+                    }
+
+                }
+                document.addEventListener("click",function click(){
+                    console.log("Clicked");
+                })
+
+                let arr=[1,2,3];
+                for(let index=0;index<arr.length;index++)
+                {
+                    const element=arr[index];
+                }
+
+
+                // console.log("The Number is"+this);
+                // function myFun(number)
+                // {
+                //     console.log("The Number is"+this);
+                // }
+                // myFun();
+
+                let mobj={
+                    mysun:(number)=>
+                    {
+                        console.log("The Number is"+this);
+                    }
+                }
+                mobj.mysun();
+
+
+
+
+        </script>
+    </head>
+    <body>
+        <h1 id="heading"> Hellow JavaScript</h1>
+        
+    </body>
+
+</html>

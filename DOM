@@ -1,0 +1,9 @@
+=> DOM-DOM is a such a technology with the help of which we can completely control any html document with JavaScript.
+
+=> With the help of DOM, we can access and change any #TAG, #id, #Class or any #attribute even we can change any #CSS style from DOM.
+
+
+=> NODE.js node will be used to setup the local server that willl be using to serve our front-end
+
+=> While React does not provide built-in two-way data binding, you can achieve similar behavior by combining controlled components and state management techniques.
+
