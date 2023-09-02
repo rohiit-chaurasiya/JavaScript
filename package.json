@@ -1,0 +1,22 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Full JavaScript Learning Material",
+  "main": "Function_Statement_Declaration_Expression.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohitAayushmaan/JavaScript.git"
+  },
+  "author": "Rohit Chaurasia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohitAayushmaan/JavaScript/issues"
+  },
+  "homepage": "https://github.com/RohitAayushmaan/JavaScript#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
